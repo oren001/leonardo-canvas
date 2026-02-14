@@ -77,6 +77,7 @@ function App() {
           shapeUtils={customShapeUtils}
           tools={customTools}
           overrides={overrides}
+          licenseKey={import.meta.env.VITE_TLDRAW_LICENSE_KEY}
         />
       </div>
     </ErrorBoundary>
